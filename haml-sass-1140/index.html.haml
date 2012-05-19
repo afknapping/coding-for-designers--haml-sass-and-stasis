@@ -1,0 +1,117 @@
+!!! 5
+%html{:lang => "en"}
+    %head
+        %meta{:charset => "utf-8"}/
+        %title The 1140px Grid &middot; Fluid down to mobile
+
+        %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}/
+        <!-- 1140px Grid styles for IE -->
+        <!--[if lte IE 9]><link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" /><![endif]-->
+
+        // The 1140px Grid - http://cssgrid.net/
+        %link{:rel => "stylesheet", :href => "css/1140.css", :type => "text/css", :media => "screen"}/
+        %link{:rel => "stylesheet", :href => "css/styles.css", :type => "text/css", :media => "screen"}/
+
+        // css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers
+        %script{:type => "text/javascript", :src => "js/css3-mediaqueries.js"}
+
+
+    %body
+        .container
+            .row
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol
+                    %p One
+                .onecol.last
+                    %p One
+                
+        .container
+            .row
+                .twocol
+                    %p Two columns
+                .twocol
+                    %p Two columns
+                .twocol
+                    %p Two columns
+                .twocol
+                    %p Two columns
+                .twocol
+                    %p Two columns
+                .twocol.last
+                    %p Two columns
+                
+        .container
+            .row
+                .threecol
+                    %p Three columns
+                .threecol
+                    %p Three columns
+                .threecol
+                    %p Three columns
+                .threecol.last
+                    %p Three columns
+                
+        .container
+            .row
+                .fourcol
+                    %p Four columns
+                .fourcol
+                    %p Four columns
+                .fourcol.last
+                    %p Four columns
+
+        .container
+            .row
+                .sixcol
+                    %p Six columns
+                .sixcol.last
+                    %p Six columns
+                
+                
+        .container
+            .row
+                .onecol
+                    %p One
+                .elevencol.last
+                    %p Eleven columns
+
+        .container
+            .row
+                .fivecol
+                    %p Five columns
+                .sevencol.last
+                    %p Seven columns
+
+        .container
+            .row
+                .eightcol
+                    %p Eight columns
+                .fourcol.last
+                    %p Four columns
+
+        .container
+            .row
+                .twocol
+                    %p Two columns
+                .tencol.last
+                    %p Ten columns
+
